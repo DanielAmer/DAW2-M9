@@ -1,0 +1,81 @@
+.container {
+    width: 800px;   
+    margin: auto;
+    font-family: Text, sans-serif;
+    max-width: 800px;
+ }
+header {
+    display: flex;
+ } 
+ .logo {
+    flex: 1;
+    margin: auto;
+ }   
+ .title {
+   flex: 4;
+   text-align: right;
+   text-transform: uppercase;
+ }
+ .items-container {
+    display: flex;
+    justify-content: space-between;
+ }
+ .item {
+    text-align: center;
+ }
+ @font-face {
+    font-family: "Main title";
+    src: url(../fonts/Lato-Hairline.ttf) format("truetype");
+ }
+ @font-face {
+    font-family: Text;
+    src: url(../fonts/Lato-Light.ttf) format("truetype");
+ }
+.title > h1 {
+    font-family: "Main title", sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    padding-top: 2.0rem;
+ }
+.title > h3 {
+    font-size: small;
+ }  
+h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    margin: auto;
+ }
+.item > h3 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color:black;
+ }
+.item > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+    color: black; 
+ }
+hr {
+    border: thin solid #bcbbbb;
+    margin-bottom: 1.5rem;
+ }
+body {
+    width: 800px;
+    margin: auto;
+ }
+img { 
+    max-width: 100%;
+    display: block;
+    margin: auto;
+ }
+ /* Reset */
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
