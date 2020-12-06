@@ -1,0 +1,25 @@
+* {
+    outline: 1px solid red !important;
+ }
+ .content {
+    display: flex;
+ }
+ 
+ .image {
+    flex: 1;
+    margin-right: 10px;
+ }
+ 
+ .description {
+    flex: 2;
+    font-family: sans-serif;
+    color: blue;
+ }
+ 
+ img {
+    width: 100%;
+ }
+ .title {
+    background-color:blue;
+    color: white
+ }
