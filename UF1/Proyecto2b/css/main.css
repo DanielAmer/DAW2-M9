@@ -1,0 +1,28 @@
+/* ------------------------------------------------- */
+/* Main styles                                       */
+/* ------------------------------------------------- */
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ body {
+    margin: 0.5 rem;
+    padding: 0.5 rem;
+    font-family: 'Lato', sans-serif;
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+ }
+ .col-10 {
+    flex: 4;
+    text-align: right;
+    text-transform: uppercase; 
+  }
+ .col-4 {
+    text-transform: uppercase;
+ }
+ 
+ 
+
+ 
