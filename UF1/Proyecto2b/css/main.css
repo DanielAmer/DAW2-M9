@@ -22,7 +22,29 @@
  .col-4 {
     text-transform: uppercase;
  }
+ @media screen and (max-width: 980px){
+   .main-container{
+       width: 90%;
+   }
+   .main-container{
+       width: 60%;
+   }
+   .main-containerl{
+       width:30%;
+   }
+}
+@media screen and (max-width: 480px){
+   .main-container{
+       height: auto;
+   }
+   .main-container{
+       width: auto;
+   }
+   .main-container{
+       display:none;
+   }
+}
  
- 
+
 
  
